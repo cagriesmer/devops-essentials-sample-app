@@ -20,3 +20,4 @@ task build {
 	new File("src/${labState}.state").text = " "
 }
 build.dependsOn test
+
